@@ -9,6 +9,7 @@ public class Button2 : MonoBehaviour
     {
         circle = GameObject.FindGameObjectWithTag("Player");
         circle.AddComponent<Rigidbody2D>();
+        circle.AddComponent<CircleCollider2D>();
         Debug.Log("Sudah Jatuh");
     }   
 
